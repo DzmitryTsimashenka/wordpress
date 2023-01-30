@@ -1,0 +1,124 @@
+/*
+Theme Name: Custom WordPress Theme.
+*/
+
+.body {
+    padding: 1rem 2rem;
+    background: #dcdcdc;
+}
+
+.site-name {
+    text-align: center;
+    color: #0a4b78;
+    margin-bottom: 0.5rem;
+}
+
+.site-description {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+
+.post {
+    margin-bottom: 2rem;
+}
+
+.post .post-title,
+.post .post-category {
+    color: darkseagreen;
+}
+
+.post .post-title {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.post .post-title h3 {
+    margin: 0;
+}
+
+.post .post-category {
+    font-size: 1rem;
+    margin: 0.2rem 0;
+}
+
+.post .post-content {
+    font-size: 1.5rem;
+    color: #2e4453;
+    text-align: justify;
+}
+
+.post .post-content p {
+    margin: 0;
+}
+
+.post .edit-post-link {
+    margin: 1rem 0;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.post .edit-post-link {
+    background-color: #4486c7;
+    border-radius: 28px;
+    border: 1px solid #4486c7;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.post .edit-post-link:hover {
+    background-color: #5367e1;
+}
+
+.post .edit-post-link:active {
+    position: relative;
+    top: 1px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination .next-link a,
+.pagination .prev-link a {
+    text-decoration: none;
+}
+
+.pagination .next-link,
+.pagination .prev-link {
+    text-transform: uppercase;
+    box-shadow: 0 1px 0 0 #f0f7fa;
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color: #33bdef;
+    border-radius: 6px;
+    border: 1px solid #057fd0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0 -1px 0 #5b6178;
+}
+
+.pagination .next-link:hover,
+.pagination .prev-link:hover {
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color: #019ad2;
+}
+
+.pagination .next-link:active,
+.pagination .next-prev:active {
+    position: relative;
+    top: 1px;
+}
+
+.custom-post-field {
+    font-size: 1.5rem;
+    color: #0c88b4;
+}
